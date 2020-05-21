@@ -25,10 +25,10 @@ public class AutomationDemoPage extends PageObject {
                     .located(By.xpath("//*[@id='basicBootstrapForm']/div[4]/div/input"));
     public static final Target RB_MALE =
             Target.the("Gender male radio button")
-                    .located(By.xpath("//*[@id='basicBootstrapForm']/div[5]/div/label[1]/input"));
+                    .located(By.xpath("//*[@id='basicBootstrapForm']/div[5]/div/label[1]"));
     public static final Target RB_FEMALE =
             Target.the("Gender demale radio button")
-                    .located(By.xpath("//*[@id='basicBootstrapForm']/div[5]/div/label[2]/input"));
+                    .located(By.xpath("//*[@id='basicBootstrapForm']/div[5]/div/label[2]"));
     public static final Target CRICKET_CB =
             Target.the("cricket checkbox")
                     .located(By.id("checkbox1"));
@@ -40,7 +40,7 @@ public class AutomationDemoPage extends PageObject {
                     .located(By.id("checkbox3"));
     public static final Target LANGUAGE_DD =
             Target.the("languages dropdown")
-                    .located(By.id("msdd"));
+                    .located(By.xpath("//*[@id='basicBootstrapForm']/div[7]/div/multi-select/div[2]/ul"));
     public static final Target SKILLS_DD =
             Target.the("skills dropdown")
                     .located(By.id("Skills"));
@@ -71,4 +71,7 @@ public class AutomationDemoPage extends PageObject {
     public static final Target BTN_REFRESH =
             Target.the("refresh button")
                     .located(By.id("Button1"));
+    public static final Target TITTLE_STRING =
+            Target.the("refresh button")
+                    .located(By.xpath("/html/body/section/div[1]/div/div[2]/h4[1]"));
 }

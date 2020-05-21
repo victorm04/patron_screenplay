@@ -1,61 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Automation demo site" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-05-20T20:23:30" hostname="LAPTOP-U0LFOLUR" time="13.421">
+<testsuite name="Automation demo site" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-05-21T20:31:12" hostname="LAPTOP-U0LFOLUR" time="29.445">
   <properties/>
-  <testcase name="Web Automation" classname="Automation demo site" time="13.421">
-    <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
-	at co.com.choucair.certification.screenplayReto01.tasks.Register.performAs(Register.java:23)
-	at co.com.choucair.certification.screenplayReto01.tasks.Register$$EnhancerByCGLIB$$692c4f0f.CGLIB$performAs$0(&lt;generated&gt;)
-	at co.com.choucair.certification.screenplayReto01.tasks.Register$$EnhancerByCGLIB$$692c4f0f$$FastClassByCGLIB$$550a6601.invoke(&lt;generated&gt;)
-	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
-	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
-	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
-	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:361)
-	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
-	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
-	at co.com.choucair.certification.screenplayReto01.tasks.Register$$EnhancerByCGLIB$$692c4f0f.performAs(&lt;generated&gt;)
-	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
-	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
-	at co.com.choucair.certification.screenplayReto01.stepdefinitions.Reto01Stepdefinition.heDoesTheRegisterOnTheSite(Reto01Stepdefinition.java:29)
-	at ✽.he does the register on the site(src/test/resources/features/reto01.feature:9)
-</failure>
-  </testcase>
-  <system-out><![CDATA[entre in the site-------------------------------
-entre aqui-------------------------------
+  <testcase name="Web Automation" classname="Automation demo site" time="29.445"/>
+  <system-out><![CDATA[llequeeeeeeee----------------
+MoviesHockey
+Male
+Maleeeeeeeeeee--------
+Saliiiiiiiiiiiiiiiiiii----------------
 ]]></system-out>
-  <system-err><![CDATA[may 20, 2020 3:23:31 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[may 21, 2020 3:31:13 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 14770
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 5137
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-may 20, 2020 3:23:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+may 21, 2020 3:31:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFORMACIÓN: Detected dialect: W3C
-[1590006218.803][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006218.905][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006219.007][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006219.110][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006219.214][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006219.315][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006219.417][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006219.519][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006219.621][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006219.722][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006219.824][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006220.006][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006220.109][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006221.101][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006221.577][SEVERE]: Timed out receiving message from renderer: 0.100
-[1590006222.401][SEVERE]: Timed out receiving message from renderer: 0.100
-[Test worker] ERROR net.serenitybdd.core.Serenity - 
-           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
-  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
- (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
-  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
- (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
-          \_\                                                            
+[1590093084.124][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093084.226][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093084.327][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093084.434][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093084.540][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093084.643][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093084.746][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093084.848][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093084.953][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093085.057][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093085.164][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093085.267][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093085.371][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093085.476][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093085.583][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093085.685][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093086.653][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093086.773][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093096.223][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093096.382][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093096.485][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093096.588][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093096.689][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093096.791][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093096.894][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093096.997][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093097.098][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093097.200][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093097.301][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590093097.403][SEVERE]: Timed out receiving message from renderer: 0.100
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
 
-TEST FAILED WITH ERROR: Web Automation
----------------------------------------------------------------------
-[Test worker] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Perform as: Carlos
-[Test worker] ERROR net.serenitybdd.core.Serenity - 
+TEST PASSED: Web Automation
+----------------------------------------------------------------------------
 ]]></system-err>
 </testsuite>
