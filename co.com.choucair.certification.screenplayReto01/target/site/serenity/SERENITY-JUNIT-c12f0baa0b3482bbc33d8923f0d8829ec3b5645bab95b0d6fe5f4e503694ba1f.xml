@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Automation demo site" skipped="0" tests="1" time="13.99" timestamp="2020-05-20 03:23:29"><testcase name="Web Automation"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+co.com.choucair.certification.screenplayReto01.tasks.Register.performAs(Register.java:23)&#13;
+co.com.choucair.certification.screenplayReto01.stepdefinitions.Reto01Stepdefinition.heDoesTheRegisterOnTheSite(Reto01Stepdefinition.java:29)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

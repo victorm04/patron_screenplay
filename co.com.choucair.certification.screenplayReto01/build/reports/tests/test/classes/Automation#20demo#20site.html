@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class Automation demo site</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class Automation demo site</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; Automation demo site</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">13.421s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">0%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="Web Automation"></a>
+<h3 class="failures">Web Automation</h3>
+<span class="code">
+<pre>java.lang.NullPointerException
+	at co.com.choucair.certification.screenplayReto01.tasks.Register.performAs(Register.java:23)
+	at co.com.choucair.certification.screenplayReto01.tasks.Register$$EnhancerByCGLIB$$692c4f0f.CGLIB$performAs$0(&lt;generated&gt;)
+	at co.com.choucair.certification.screenplayReto01.tasks.Register$$EnhancerByCGLIB$$692c4f0f$$FastClassByCGLIB$$550a6601.invoke(&lt;generated&gt;)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.BaseMethodRunner.invokeMethod(BaseMethodRunner.java:10)
+	at net.thucydides.core.steps.NormalMethodRunner.invokeMethodAndNotifyFailures(NormalMethodRunner.java:20)
+	at net.thucydides.core.steps.StepInterceptor.runNormalMethod(StepInterceptor.java:361)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:132)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at co.com.choucair.certification.screenplayReto01.tasks.Register$$EnhancerByCGLIB$$692c4f0f.performAs(&lt;generated&gt;)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:106)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:90)
+	at co.com.choucair.certification.screenplayReto01.stepdefinitions.Reto01Stepdefinition.heDoesTheRegisterOnTheSite(Reto01Stepdefinition.java:29)
+	at ✽.he does the register on the site(src/test/resources/features/reto01.feature:9)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">Web Automation</td>
+<td class="failures">13.421s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>entre in the site-------------------------------
+entre aqui-------------------------------
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>may 20, 2020 3:23:31 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 14770
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+may 20, 2020 3:23:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[1590006218.803][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006218.905][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006219.007][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006219.110][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006219.214][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006219.315][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006219.417][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006219.519][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006219.621][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006219.722][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006219.824][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006220.006][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006220.109][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006221.101][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006221.577][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590006222.401][SEVERE]: Timed out receiving message from renderer: 0.100
+[Test worker] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Web Automation
+---------------------------------------------------------------------
+[Test worker] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Perform as: Carlos
+[Test worker] ERROR net.serenitybdd.core.Serenity - 
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 05/20/2020 03:23:48 PM</p>
+</div>
+</div>
+</body>
+</html>
