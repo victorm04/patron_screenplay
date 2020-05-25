@@ -1,22 +1,10 @@
 
 [
-java:S4973("9Use the "equals" method if value comparison was intended.(Í³²«üÿÿÿÿ8èÈª£.
-P
-java:S11728"3Remove this unused method parameter "RegisterData".(©ì²Æ8ğÀÌ£.
-V
-java:S4973+"9Use the "equals" method if value comparison was intended.(ÚäãÔ8èÈª£.
-V
-java:S4973%"9Use the "equals" method if value comparison was intended.(æ‹œ£8èÈª£.
-m	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ì²Æ8Î‘Äœ£.
-V
-java:S4973+"9Use the "equals" method if value comparison was intended.(ÚäãÔ8èÈª£.
-V
-java:S49731"9Use the "equals" method if value comparison was intended.(¡šŸ÷8èÈª£.
+java:S4973("9Use the "equals" method if value comparison was intended.(Í³²«üÿÿÿÿ8íÂàÂ£.
+m	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ì²Æ8›íßÂ£.
 [
-java:S4973("9Use the "equals" method if value comparison was intended.(Í³²«üÿÿÿÿ8èÈª£.
+java:S4973("9Use the "equals" method if value comparison was intended.(Í³²«üÿÿÿÿ8íÂàÂ£.
 V
-java:S4973."9Use the "equals" method if value comparison was intended.(ûäÎ8èÈª£.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¢Ì†²şÿÿÿÿ8‡±ø£.
+java:S4973+"9Use the "equals" method if value comparison was intended.(ÚäãÔ8íÂàÂ£.
 V
-java:S4973%"9Use the "equals" method if value comparison was intended.(æ‹œ£8èÈª£.
-U	java:S106:"9Replace this use of System.out or System.err by a logger.(àÅşæ8«Ã„£.
+java:S4973+"9Use the "equals" method if value comparison was intended.(ÚäãÔ8íÂàÂ£.

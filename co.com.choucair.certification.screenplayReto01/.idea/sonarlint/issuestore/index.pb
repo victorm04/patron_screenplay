@@ -15,3 +15,5 @@ Tsrc/test/java/co/com/choucair/certification/screenplayReto01/runners/RunnerTags
 Psrc/main/java/co/com/choucair/certification/screenplayReto01/tasks/Register.java,5\c\5c73bb1ce7bbc5a65039f293f23cd2caeede0960
 –
 fsrc/test/java/co/com/choucair/certification/screenplayReto01/stepdefinitions/Reto01Stepdefinition.java,f\b\fbd61e9dc01d775939b0229abd074e6fdbd05e5f
+‚
+Rsrc/main/java/co/com/choucair/certification/screenplayReto01/questions/Answer.java,8\2\82ebc0919c6d5c325f7bd0f69dcc12e1551d5870
