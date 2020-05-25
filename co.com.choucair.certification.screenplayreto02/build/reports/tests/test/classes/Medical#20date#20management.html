@@ -35,13 +35,13 @@
 </td>
 <td>
 <div class="infoBox" id="ignored">
-<div class="counter">1</div>
+<div class="counter">0</div>
 <p>ignored</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.018s</div>
+<div class="counter">16.561s</div>
 <p>duration</p>
 </div>
 </td>
@@ -50,8 +50,8 @@
 </div>
 </td>
 <td>
-<div class="infoBox skipped" id="successRate">
-<div class="percent">-</div>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
 <p>successful</p>
 </div>
 </td>
@@ -64,7 +64,10 @@
 <a href="#tab0">Tests</a>
 </li>
 <li>
-<a href="#tab1">Standard error</a>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
 </li>
 </ul>
 <div id="tab0" class="tab">
@@ -78,28 +81,69 @@
 </tr>
 </thead>
 <tr>
-<td class="skipped">Doctor registration</td>
-<td class="skipped">-</td>
-<td class="skipped">ignored</td>
+<td class="success">Date registration</td>
+<td class="success">16.561s</td>
+<td class="success">passed</td>
 </tr>
 </table>
 </div>
 <div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>
+Pasee
+
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>[Test worker] INFO net.serenitybdd.core.Serenity - TEST PENDING
-[Test worker] INFO net.serenitybdd.core.Serenity - TEST PENDING
-[Test worker] INFO net.serenitybdd.core.Serenity - TEST PENDING
+<pre>may 25, 2020 4:14:49 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 47252
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+may 25, 2020 4:14:54 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[1590441295.175][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441295.281][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441295.386][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441295.489][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441295.594][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441295.708][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441295.825][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441295.944][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441296.051][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441296.156][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441296.269][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441296.377][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441296.672][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441296.827][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441296.930][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441297.040][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441297.144][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441298.821][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441299.018][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441299.121][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441299.222][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441299.323][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441299.527][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441299.630][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441299.731][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441299.833][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441299.934][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590441300.036][SEVERE]: Timed out receiving message from renderer: 0.100
 [Test worker] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
 
-TEST PENDING: Doctor registration
----------------------------------------------------------------------------------
+TEST PASSED: Date registration
+----------------------------------------------------------------------------
 </pre>
 </span>
 </div>
@@ -111,7 +155,7 @@ TEST PENDING: Doctor registration
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 5.2.1</a> at 05/22/2020 12:15:36 PM</p>
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at 05/25/2020 04:15:09 PM</p>
 </div>
 </div>
 </body>

@@ -21,7 +21,7 @@ public class AcademyStepDefinitions {
 
     @Given("^than Victor wants to learn automation at the academy choucair$")
     public void thanVictorWantsToLearnAutomationAtTheAcademyChoucair() {
-        OnStage.theActorCalled("Victor").wasAbleTo(OpenUp.thePage(),(Login.onThePage()));
+        OnStage.theActorCalled("Victor").wasAbleTo(OpenUp.thePage(),Login.onThePage());
     }
 
     @When("^he search for the course (.*) on the choucair academy platform$")

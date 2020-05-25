@@ -4,7 +4,6 @@ import co.com.choucair.certification.screenplayreto02.model.DoctorRegisterData;
 import co.com.choucair.certification.screenplayreto02.userinterface.DoctorRegistryPage;
 import co.com.choucair.certification.screenplayreto02.userinterface.HospitalAdminPage;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
@@ -13,13 +12,13 @@ import net.serenitybdd.screenplay.actions.SelectFromOptions;
 
 import java.util.List;
 
-public class Register implements Task {
+public class DoctorRegister implements Task {
 
     private static DoctorRegisterData doctorRegisterData;
 
-    public static Register newDoctor(List<DoctorRegisterData> DoctorRegisterData) {
+    public static DoctorRegister newDoctor(List<DoctorRegisterData> DoctorRegisterData) {
         doctorRegisterData = DoctorRegisterData.get(0);
-        return Tasks.instrumented(Register.class);
+        return Tasks.instrumented(DoctorRegister.class);
     }
 
     @Override

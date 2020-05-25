@@ -1,1 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Medical date management" skipped="1" tests="1" time="0.62" timestamp="2020-05-22 06:18:25"><testcase name="Patient registration"><skipped/></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Medical date management" skipped="0" tests="1" time="24.22" timestamp="2020-05-25 04:13:17"><testcase name="Patient registration"/></testsuite>
